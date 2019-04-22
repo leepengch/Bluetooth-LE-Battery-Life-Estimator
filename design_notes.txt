@@ -1,6 +1,6 @@
 Below is a draft user interface description (in order of "importance"):
 
-SoC selection (drop down)
+SoC/Module selection (drop down)
   DA14580
   DA14581
   DA14583
@@ -26,6 +26,7 @@ Advertising
   Connectable/Broadcast (radio button)
   Scan response none/3-31bytes (radio button + slider)
   Channels used 37/38/39 (at least one) (check box) 
+  Burst type (window/interval)
 
 Connection (make sure parameters stays within BT spec)
   Interval 7.5ms - 4s (note: some warnings about phone and OS)
@@ -33,6 +34,13 @@ Connection (make sure parameters stays within BT spec)
   Read bytes per second
   Write bytes per second
   Notify bytes per second/interval?
+  
+
+Customers use case
+  Sleep average
+  Average per event
+  
+  
 
 FEM
   Prefilled Skyworks XML or custom (use SKY66112 as pattern)
